@@ -2,14 +2,14 @@
   <div>Hello {{ value }}
     <div class="col-sm12">
       <label>足し算:</label>
-      <input type="number" v-model.number="input1_1"> + 
-      <input type="number" v-model.number="input1_2"> = 
+      <input id="add1" type="number" v-model.number="input1_1"> + 
+      <input id="add2" type="number" v-model.number="input1_2"> = 
       <span id='addval'>{{ add1 }}</span>
     </div>
     <div class="col-sm12">
       <label>割り算:</label>
-      <input type="number" v-model.number="input2_1"> + 
-      <input type="number" v-model.number="input2_2"> = 
+      <input id="div1" type="number" v-model.number="input2_1"> + 
+      <input id="div2" type="number" v-model.number="input2_2"> = 
       <span id='divval'>{{ div1 }}</span>
     </div>
   </div>
